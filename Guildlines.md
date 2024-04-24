@@ -12,12 +12,12 @@
 - Utilize a CSS preprocessor like SCSS for easier maintenance and organization.
 - Follow a consistent naming convention for classes, such as BEM (Block Element Modifier).
 - Use utility classes where appropriate to avoid bloating your CSS with repetitive styles.
-- Leverage CSS modules or a CSS-in-JS solution for scoped styles and better component encapsulation.
+- Be mindful of unnecessary CSS to optimize performance.
+- Ensure to use the latest version of Tailwind CSS (v3) for modern utility-first styling.
 
 ## 3. Data Fetching
 - Use server-side rendering (SSR) or static site generation (SSG) for optimal SEO and performance.
 - Prefer server-side data fetching using methods in Next.js.
-- Utilize client-side data fetching with libraries like SWR for dynamic data updates.
 
 ## 4. TypeScript
 - Utilize TypeScript for static type checking and improved code quality.
@@ -47,9 +47,8 @@
 - Prefix variables or functions with their context or type to avoid naming collisions.
 
 ## 9. Version Maintenance
-- Utilize a version control system like Git for tracking changes and managing versions.
-- Follow semantic versioning (SemVer) for versioning your project.
-- Maintain a changelog to keep track of updates and changes between versions.
+- Use Node version v18.17 or higher
+- Use npm version v10.1.0 or higher
 
 ## 10. Type Interface
 - Utilize TypeScript's type inference whenever possible.
