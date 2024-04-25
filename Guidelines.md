@@ -39,7 +39,9 @@
 - Optimize rendering performance by minimizing unnecessary re-renders.
 - Use React's `memo` or PureComponent for optimizing client component rendering.
 - Leverage React's context API for passing down global data to deeply nested components without prop drilling.
-- Use server side rendering
+- Use server-side rendering for constantly changing backend data to ensure up-to-date content.
+- Be cautious in using client-side rendering for client action-based interaction or server-side rendering.
+- Utilize static site generation for caching pages in memory, but be mindful of the potential impact on performance with a large number of pages.
 
 ## 8. Naming Convention
 - Follow a consistent naming convention for variables, functions, and states (camelCase, PascalCase, etc.).
